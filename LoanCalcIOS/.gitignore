@@ -1,0 +1,5 @@
+.DS_Store
+*.xml
+LoanCalc.xcodeproj/xcuserdata/
+LoanCalc.xcodeproj/project.xcworkspace/
+Payload/

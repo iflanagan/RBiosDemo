@@ -1,0 +1,55 @@
+---
+# Test framework: "xcuitest" or "espresso"
+testFramework: xcuitest
+ 
+# Path to the app's .ipa or .app.
+app: ./LoanCalc.ipa
+ 
+# Path to the test runner app's .ipa or .app.
+test: ./LoanCalcUITests-Runner.ipa
+ 
+# Path where XML test reports will be saved.
+xmlFolder: ./reports
+ 
+# Define a list of devices on which the tests should be executed.
+devices:
+
+# Device 1 example: minimal configuration.
+# Only specify a DC (either EU or US).
+# - datacenter: EU
+
+# Device 2 example: Static Allocation.
+- datacenter: US
+  # Specify a device descriptor for static allocation f.ex. iPhone_8_real_us.
+  device: iPhone_6S_carrier_test_sjc
+  testsToRun:
+  - testClass: LoanCalcUITests
+    testMethod: testLoanCalc2
+    testMethod: testLoanCalc1
+ 
+# # Device 3 example: Dynamic Allocation.
+# - datacenter: US
+#   # Specify a device name or regex for dynamic allocation: 'iPhone 5', 'iPad.*', etc.
+#   deviceNameQuery: iPhone 5
+ 
+#   # Platform Version for a dynamic device query. f.ex '9' for all Devices
+#   # with major version 9 and arbitrary minor versions or '9.3.3' for a more
+#   # specific version.
+#   platformVersion: 11.4
+ 
+  # Optional parameters, set to true to enable.
+  # phoneOnly: false
+  # tabletOnly: false
+  # privateDevicesOnly: false
+ 
+# Device 4 example: Running subset of tests.
+  # Data center to run tests in (either EU or US).
+# - datacenter: EU
+ 
+  # Provide a list of test cases or test classes. If you want to run all tests
+  # of a class provide only the class name and if you want to run a specific
+  # method of a class provide the class name and method name.
+# - testsToRun:
+#   - testClass: SampleTestCase
+#   - testClass: SampleTestCase2
+#     testMethod: testItWorks
