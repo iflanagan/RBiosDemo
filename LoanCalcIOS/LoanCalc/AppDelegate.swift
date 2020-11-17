@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  LoanCalc
 //
-//  Created by Bill Meyer on 7/24/18.
-//  Copyright © 2018 Bill Meyer. All rights reserved.
-//
 
 import UIKit
 

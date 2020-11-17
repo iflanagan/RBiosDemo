@@ -11,8 +11,6 @@
 		FEF9A28A2107A970009F7EF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9A2892107A970009F7EF9 /* ViewController.swift */; };
 		FEF9A28F2107A970009F7EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF9A28E2107A970009F7EF9 /* Assets.xcassets */; };
 		FEF9A2922107A970009F7EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF9A2902107A970009F7EF9 /* LaunchScreen.storyboard */; };
-		FEF9A29D2107A970009F7EF9 /* LoanCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9A29C2107A970009F7EF9 /* LoanCalcTests.swift */; };
-		FEF9A2A82107A970009F7EF9 /* LoanCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9A2A72107A970009F7EF9 /* LoanCalcUITests.swift */; };
 		FEF9A2B62107ABB8009F7EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF9A2B52107ABB8009F7EF9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -41,11 +39,7 @@
 		FEF9A2912107A970009F7EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEF9A2932107A970009F7EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF9A2982107A970009F7EF9 /* LoanCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEF9A29C2107A970009F7EF9 /* LoanCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCalcTests.swift; sourceTree = "<group>"; };
-		FEF9A29E2107A970009F7EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF9A2A32107A970009F7EF9 /* LoanCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEF9A2A72107A970009F7EF9 /* LoanCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCalcUITests.swift; sourceTree = "<group>"; };
-		FEF9A2A92107A970009F7EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF9A2B52107ABB8009F7EF9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				FEF9A2862107A970009F7EF9 /* LoanCalc */,
-				FEF9A29B2107A970009F7EF9 /* LoanCalcTests */,
-				FEF9A2A62107A970009F7EF9 /* LoanCalcUITests */,
 				FEF9A2852107A970009F7EF9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				FEF9A2932107A970009F7EF9 /* Info.plist */,
 			);
 			path = LoanCalc;
-			sourceTree = "<group>";
-		};
-		FEF9A29B2107A970009F7EF9 /* LoanCalcTests */ = {
-			isa = PBXGroup;
-			children = (
-				FEF9A29C2107A970009F7EF9 /* LoanCalcTests.swift */,
-				FEF9A29E2107A970009F7EF9 /* Info.plist */,
-			);
-			path = LoanCalcTests;
-			sourceTree = "<group>";
-		};
-		FEF9A2A62107A970009F7EF9 /* LoanCalcUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FEF9A2A72107A970009F7EF9 /* LoanCalcUITests.swift */,
-				FEF9A2A92107A970009F7EF9 /* Info.plist */,
-			);
-			path = LoanCalcUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF9A29D2107A970009F7EF9 /* LoanCalcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF9A2A82107A970009F7EF9 /* LoanCalcUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
